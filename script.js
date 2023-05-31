@@ -1,7 +1,6 @@
 $(function(){
 	"use strict";
-	
-	var sect = $( window.location.hash ),
+		var sect = $( window.location.hash ),
 		portfolio = $('.portfolio-items');
 	
 	if(sect.length == 1){
